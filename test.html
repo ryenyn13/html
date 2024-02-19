@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- dấu ! enter tạo 1 cấu trúc html-->
+<!--định dạng
+ Tag <b> cho biết nội dung cần nhấn mạnh.
+Tag <strong> cho biết nội dung cần nhấn mạnh trình duyệt hiển thị với chữ đậm.
+Tag <big> hiển thị với cỡ chữ lớn hơn 1 cấp.
+Tag <small> hiển thị cỡ chữ nhỏ hơn 1 cấp.
+Tag <i> hiển thị chữ in nghiêng.
+Tag <em> đánh dấu nhấn mạnh.
+Tag <ins> đánh dấu đoạn text được chèn vào.
+Tag <del> đánh dấu đoạn text xóa đi.
+Tag <sub> tạo chỉ số dưới.
+Tag <sup> tạo chỉ số trên.
+    
+<div> //bao ở ngoài là bộ tag division
+<h1>Heading 1</h1> h1-h6 :Tiêu đề
+<p>Paragraph</p> :Văn bản
+<img src=”/” alt=”Alternative information”>
+<p>Paragraph two with a <a href=”https://example.com”>hyperlink</a></p>
+</div>
+
+<br /> Chèn một ngắt xuống dòng
+<strong> </strong> in đậm
+<em> </em> in nghiêng
+<small>	 văn bản có kích thước chữ nhỏ hơn văn bản bình thường
+ <b> </b> Bold: in đậm
+ <i> </i> Italic: in nghiêng
+<u> </u> underline: gạch chân
+<ins>Tạo một đường gạch chân lên văn bản
+<del>Tạo một đường kẻ ngang lên văn bản
+
+<ol> </ol> order list: list có stt 
+ <li> đặt đối tươngj ở đây </li> 
+
+<ul> </ul> unordered list: list không có stt
+ <li> </li>
+
+ <pre>	 giữ nguyên định dạng giống như trong lúc soạn thảo
+
+<progress>	Tạo một thanh tiến trình
+
+<q>	Xác định một câu trích dẫn ngắn(dấu ngoặc kép)
+
+<s>	Tạo một đường kẻ ngang lên văn bản
+
+<script>	Dùng để làm thùng chứa cho các câu lệnh JavaScript
+
+<frame>	
+Xác định một khung trong một bộ khung
+
+<frameset>	
+Xác định một bộ khung
+
+<title>	Xác định tiêu đề của trang web
+<a> </a> link
+<img /> 
+<track>	
+Chèn một bản phụ đề vào video
+<video>	
+Tạo một "trình xem phim" cho trang web
+<source>	
+Chỉ định tài nguyên cho trình nghe nhạc hoặc trình xem phim
+Mẫu thẻ tạo bảng
+định dạng bảng
+{
+    boder="1" 
+    cellpadding="30"
+    cellspacing="5"
+    align: Xác định vị trí của bảng so với các văn bản xung quanh(right, lèft, center)
+bgcolor:Thiết lập màu nền cho bảng
+border	:Thiết lập đường viền cho bảng cũng như các ô trong bảng(1: có viền; 0: 0)
+
+cellpadding	:khoảng cách từ nội dung của ô đến đường viền của ô
+
+cellspacing	:khoảng cách từ đường viền của ô cho đến các ô xung quanh
+
+frame	:những phần đường viền nào của bảng sẽ được hiển thị
+(void	Cả bốn đường viền của bảng đều KHÔNG được hiển thị
+above	Đường viền phía trên của bảng sẽ được hiển thị
+below	Đường viền phía dưới của bảng sẽ được hiển thị
+lhs	Đường viền bên trái của bảng sẽ được hiển thị
+rhs	Đường viền bên phải của bảng sẽ được hiển thị
+vsides	Đường viền bên trái và bên phải của bảng sẽ được hiển thị
+hsides	Đường viền phía trên và phía dưới của bảng sẽ được hiển thị
+box	Cả bốn đường viền của bảng đều được hiển thị
+border	Cả bốn đường viền của bảng đều được hiển thị)
+rules	: những phần đường kẻ nào nằm bên trong bảng sẽ được hiển thị
+(none	Không có đường kẻ nào được hiển thị
+rows	Chỉ những đường kẻ ngang được hiển thị
+cols	Chỉ những đường kẻ dọc được hiển thị
+all 	Tất cả các đường kẻ ngang và dọc đều được hiển thị)
+width: Xác định chiều rộng của bảng
+
+}
+<caption>	Tạo tiêu đề cho bảng
+<table> tạp bảng
+<tr> Xác định phần tử là một hàng trong bảng
+<th> Xác định phần tử là một ô tiêu đề trong hàng
+<tbody> Xác định những dòng nào thuộc "phần thân" của bảng
+<td> Xác định phần tử là một ô trong hàng
+<tfoot>	Xác định những dòng nào thuộc "phần chân" của bảng
+<thead>	Xác định những dòng nào thuộc "phần đầu" của bảng
+
+mẫu thẻ có thuộc tính:
+<(tagname) (từ khóa)="(giá trị)"> (nội dung) </(tagname)>
+Ví dụ
+<i style="color:red">Nội dung 1</i><br/>
+<i style="background-color:#ffb300">Nội dung 2</i>
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h6 style=" color:black">TO DO LIST</h6>
+    <br>
+    <table {
+        boder="1" 
+        cellpadding="30"
+        cellspacing="5" }>
+        <tr> 
+            <th>họ tên</th>
+            <th> lớp</th>
+            </th>
+        </tr>
+        <td> A </td>
+    </table>
+    <p><font color="blue">Cá voi là loài động vật to lớn.</font></p>
+    <p style="color:midnightblue;"></p>
+  </body>
+</html>
